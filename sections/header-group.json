@@ -1,0 +1,73 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": { "text": "Welcome to Exo Safety", "link": "" }
+        },
+        "announcement_pNnmty": {
+          "type": "announcement",
+          "settings": {
+            "text": "The best place to order your medical PPE gloves",
+            "link": ""
+          }
+        },
+        "announcement_fxgdxM": {
+          "type": "announcement",
+          "settings": {
+            "text": "Buy now at amazing discount prices",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0",
+        "announcement_pNnmty",
+        "announcement_fxgdxM"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "middle-left",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "reduce-logo-size",
+        "show_line_separator": false,
+        "color_scheme": "scheme-3",
+        "menu_color_scheme": "scheme-5",
+        "enable_country_selector": true,
+        "enable_language_selector": false,
+        "mobile_logo_position": "left",
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "17186165496b1c101a": {
+      "type": "apps",
+      "blocks": {
+        "slider_revolution_slider_general_FAipbG": {
+          "type": "shopify://apps/slider-revolution/blocks/slider_general/d2c2325b-ecb9-42b8-a0b0-ca2ffb6e3203",
+          "settings": { "slider_id": "" }
+        }
+      },
+      "block_order": ["slider_revolution_slider_general_FAipbG"],
+      "settings": { "include_margins": true }
+    }
+  },
+  "order": ["announcement-bar", "header", "17186165496b1c101a"]
+}

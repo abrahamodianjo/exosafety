@@ -1,0 +1,24 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "settings": {
+        "color_scheme": "scheme-043ec127-d9ae-4bf1-b475-2884ff5c15be",
+        "newsletter_enable": false,
+        "newsletter_heading": "<strong>Sign Up for Our Mailing List</strong>",
+        "enable_follow_on_shop": false,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": ["footer"]
+}
